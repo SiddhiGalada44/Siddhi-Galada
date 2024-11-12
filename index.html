@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ffd1dc 0%, #ff69b4 100%);
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            animation: fadeIn 1s ease-in;
+        }
+        .hero h1 {
+            font-size: 3.5rem;
+            color: #000000;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            color: #333333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .contact-info {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .contact-item {
+            margin: 1rem 0;
+            font-size: 1.1rem;
+            color: #000000;
+        }
+        .contact-item i {
+            margin-right: 10px;
+            color: #ff69b4;
+        }
+        .social-links {
+            margin-top: 2rem;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 15px;
+            color: #3498db;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: 500;
+            position: relative;
+        }
+        .social-links a.resume-link {
+            background-color: #27ae60;
+            color: white;
+        }
+        .social-links a.projects-link {
+            background-color: #e74c3c;
+            color: white;
+        }
+        .social-links a.linkedin-link {
+            background-color: #0077b5;
+            color: white;
+        }
+        .social-links a i {
+            margin-right: 8px;
+        }
+        .social-links a:hover {
+            color: #ff1493;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <img src="IMG_0359.JPG" alt="Siddhi Galada" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 2rem;">
+            <h1>Hello, I'm Siddhi Galada</h1>
+            <p>Welcome to my digital space! I'm a passionate developer/designer dedicated to creating beautiful and functional web experiences. With expertise in modern web technologies and a keen eye for detail, I bring ideas to life through clean, efficient code.</p>
+            
+            <div class="contact-info">
+                <h2>Let's Connect!</h2>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    Email: <a href="mailto:galada@usc.edu">galada@usc.edu</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    Phone: <a href="tel:+18182720721">(818) 272-0721</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/siddhi-galada" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <span>LinkedIn Profile</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+
